@@ -5,7 +5,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         // Recoge los datos del formulario
         $username = $_POST["username"];
         $password = $_POST["password"];
-        
+        //post sirve para guardar los datos en la nube
         // Aca podes agregar la lógica de autenticación, verificar si tu usuario esta bien 
         // Por ejemplo, aca vamos a verificar un usuario "admin" con contraseña "password123"
         if ($username === "admin" && $password === "password123") {
